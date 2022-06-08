@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const webconfig = {
   title: 'Alejandro Coca-Castro',
-  tagline: 'Aprendedor de Ciencia Abierta, Geotecnologias & IA',
+  tagline: 'Ciencia Medioambiental Abierta',
   url: 'https://acocac.github.io',
   baseUrl: '/personal-website/',
   onBrokenLinks: 'throw',
@@ -72,7 +72,7 @@ const webconfig = {
     },
     navbar: {
       hideOnScroll: true,
-      title: config.REPOSITORY_NAME,
+      title: 'Alejandro',
       logo: {
         alt: 'td logo',
         src: 'img/me.jpeg',
