@@ -20,4 +20,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # Translation
-/i18n
+website/i18n
