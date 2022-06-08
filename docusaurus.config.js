@@ -10,7 +10,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const webconfig = {
   title: 'Alejandro Coca-Castro',
   tagline: 'Aprendedor de Ciencia Abierta, Geotecnologias & IA',
-  url: 'https://acocac.github.io/personal-website',
+  url: 'https://acocac.github.io',
   baseUrl: '/personal-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
