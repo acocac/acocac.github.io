@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import Translate, { translate } from '@docusaurus/Translate';
 import { useLocation } from "react-router-dom";
 import clsx from "clsx";
 
@@ -25,7 +26,7 @@ import communities from "../../data/_Communities";
 function CategoryIcon({ category, size = "1x" }) {
   let faIcon;
   switch (category) {
-    case "Community":
+    case translate({message: "Comunidad"}):
       faIcon = faUsers;
       break;
     case "Open Source Tool":
@@ -155,7 +156,9 @@ function Communities() {
                 )}
                 to={useBaseUrl("/communities")}
               >
-                All communities
+                <Translate>
+                  Todas las comunidades
+                </Translate>
               </Link>
               <h1>{projectItem.title}</h1>
               <h2>{projectItem.subtitle}</h2>
@@ -194,11 +197,17 @@ function Communities() {
                     </li>
                   )}
                 </ul>
-                <b>Descripción</b>
+                <b>
+                  <Translate>
+                    Descripción
+                  </Translate> </b>
                 <div>{projectItem.description}</div>
                 {projectItem.links && (
                   <>
-                    <b>Vínculos</b>
+                    <b>
+                      <Translate>
+                        Vínculos
+                      </Translate> </b>
                     <ul>
                       {projectItem.links.map((link, i) => (
                         <li key={i}>
@@ -219,7 +228,9 @@ function Communities() {
                 )}
                 to={useBaseUrl("/communities")}
               >
-                All communities
+                <Translate>
+                  Todas las comunidades
+                </Translate>
               </Link>
             </div>
           </div>

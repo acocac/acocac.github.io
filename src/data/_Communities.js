@@ -3,7 +3,7 @@ import Translate, { translate } from '@docusaurus/Translate';
 
 const communities = [
     {
-    category: "Community",
+    category: translate({message: "Comunidad"}),
     title: translate({message: "Libro de ciencias de datos ambientales"}),
     slug: "#envdsbook",
     imageUrl: "img/communities/envds.jpeg",
@@ -18,8 +18,16 @@ const communities = [
             </Translate>
         </p>
         <p>
-            <li> <Translate> cualquier persona interesada en herramientas de código abierto para la ciencia medioambiental </Translate> </li>
-            <li> <Translate> cualquier persona interesada en la reproducibilidad, la inclusión, la compartición y la colaboración de la IA y la ciencia de los datos para aplicaciones medioambientales </Translate> </li>
+            <li>
+                <Translate>
+                    cualquier persona interesada en herramientas de código abierto para la ciencia medioambiental
+                </Translate>
+            </li>
+            <li>
+                <Translate>
+                    cualquier persona interesada en la reproducibilidad, la inclusión, la compartición y la colaboración de la IA y la ciencia de los datos para aplicaciones medioambientales
+                </Translate>
+            </li>
         </p>
         <p>
             <Translate>
@@ -36,7 +44,7 @@ const communities = [
     ],
   },
   {
-    category: "Community",
+    category: translate({message: "Comunidad"}),
     title: "The Turing Way",
     slug: "#ttw",
     imageUrl: "img/communities/ttw.png",
@@ -75,7 +83,7 @@ const communities = [
     ],
   },
   {
-    category: "Community",
+    category: translate({message: "Comunidad"}),
     title: "Open Life Science",
     slug: "#ols",
     imageUrl: "img/communities/ols.png",
