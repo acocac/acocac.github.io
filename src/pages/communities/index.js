@@ -135,7 +135,9 @@ function Communities() {
                         )}
                         to={useBaseUrl(project.slug)}
                       >
-                        Aprende más
+                        <Translate>
+                          Aprende más
+                        </Translate>
                       </Link>
                     </div>
                   </div>
