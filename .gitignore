@@ -21,3 +21,5 @@ yarn-error.log*
 
 # Translation
 website/i18n
+
+.idea
