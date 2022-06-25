@@ -24,7 +24,7 @@ jobs:
       - name: Build Docusaurus website
         run: |
           npm install 
-          npm crowdin:sync 
+          npm run crowdin:sync 
           npm run build
         env:
           POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
