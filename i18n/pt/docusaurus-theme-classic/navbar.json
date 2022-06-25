@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Alejandro",
+    "description": "The title in the navbar"
+  },
+  "item.label.Notas": {
+    "message": "Notas",
+    "description": "Navbar item with label Notas"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Proyectos": {
+    "message": "Proyectos",
+    "description": "Navbar item with label Proyectos"
+  },
+  "item.label.Comunidades": {
+    "message": "Comunidades",
+    "description": "Navbar item with label Comunidades"
+  },
+  "item.label.Acerca": {
+    "message": "Acerca",
+    "description": "Navbar item with label Acerca"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
