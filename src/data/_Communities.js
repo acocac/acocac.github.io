@@ -76,6 +76,10 @@ const communities = [
       </>
     ),
     links: [
+        {
+        name: translate({message: "Sitio Web"}),
+        link: "https://the-turing-way.netlify.app/",
+      },
       {
         name: "GitHub",
         link: "https://github.com/alan-turing-institute/the-turing-way",
@@ -124,7 +128,7 @@ const communities = [
     ),
     links: [
       {
-        name: "Sitio Web",
+        name: translate({message: "Sitio Web"}),
         link: "https://openlifesci.org/",
       },
     ],
