@@ -7,23 +7,6 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 
 import styles from "./styles.module.css";
-import { WorkItems, EducationItems } from "../../data/_About";
-
-function ResumeItem({ location, link, position, period, description }) {
-  return (
-    <div className={styles.resumeItem}>
-      <h3>
-        <a href={link}>{location}</a>
-      </h3>
-      <p>
-        <b>{position}</b>
-        <br />
-        <i>{period}</i>
-      </p>
-      <div>{description}</div>
-    </div>
-  );
-}
 
 function About() {
   const context = useDocusaurusContext();
