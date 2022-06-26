@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import Translate, { translate } from '@docusaurus/Translate';
 import { useLocation } from "react-router-dom";
 import clsx from "clsx";
 
@@ -25,7 +26,7 @@ import projects from "../../data/_Projects";
 function CategoryIcon({ category, size = "1x" }) {
   let faIcon;
   switch (category) {
-    case "Project":
+    case translate({message: "Project"}):
       faIcon = faFile;
       break;
     case "Open Source Tool":
