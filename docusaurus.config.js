@@ -66,10 +66,10 @@ const webconfig = {
   },
 
   themeConfig: {
-   announcementBar: {
-      id: "shareme",
-      content: '⭐️ Si te gusta mi contenido, compártelo en tus redes sociales! ⭐️',
-    },
+   // announcementBar: {
+   //    id: "shareme",
+   //    content: '⭐️ Si te gusta mi contenido, compártelo en tus redes sociales! ⭐️',
+   //  },
     navbar: {
       hideOnScroll: true,
       title: 'Alejandro',
