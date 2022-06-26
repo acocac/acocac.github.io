@@ -26,7 +26,7 @@ import projects from "../../data/_Projects";
 function CategoryIcon({ category, size = "1x" }) {
   let faIcon;
   switch (category) {
-    case translate({message: "Project"}):
+    case translate({message: "Proyecto"}):
       faIcon = faFile;
       break;
     case "Open Source Tool":
@@ -135,7 +135,9 @@ function Projects() {
                         )}
                         to={useBaseUrl(project.slug)}
                       >
-                        Aprende más
+                        <Translate>
+                          Aprende más
+                        </Translate>
                       </Link>
                     </div>
                   </div>
@@ -156,7 +158,9 @@ function Projects() {
                 )}
                 to={useBaseUrl("/projects")}
               >
-                Todos los proyectos
+                <Translate>
+                  Todos los proyectos
+                </Translate>
               </Link>
               <h1>{projectItem.title}</h1>
               <h2>{projectItem.subtitle}</h2>
@@ -220,7 +224,9 @@ function Projects() {
                 )}
                 to={useBaseUrl("/projects")}
               >
-                Todos los proyectos
+                <Translate>
+                  Todos los proyectos
+                </Translate>
               </Link>
             </div>
           </div>
