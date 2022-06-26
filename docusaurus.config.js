@@ -79,11 +79,11 @@ const webconfig = {
         srcDark: 'img/me.jpeg'
       },
       items: [
-        {
-          label: 'Notas',
-          position: 'right',
-          to: '/docs'
-        },
+        // {
+        //   label: 'Notas',
+        //   position: 'right',
+        //   to: '/docs'
+        // },
         {
           label: 'Blog',
           position: 'right',
