@@ -3,7 +3,7 @@ import Translate, { translate } from '@docusaurus/Translate';
 
 const projects = [
   {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Sensores Ambientales"}),
     slug: "#turing-envsensors",
     imageUrl: "img/projects/turing-envsensors.jpeg",
@@ -65,7 +65,7 @@ const projects = [
     ],
   },
   {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: "scivision",
     slug: "#turing-scivision",
     imageUrl: "img/projects/turing-scivision.png",
@@ -132,7 +132,7 @@ const projects = [
     ],
   },
     {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Sistemas de producción de café en Colombia"}),
     slug: "#solidaridad-cafe",
     imageUrl: "img/projects/solidaridad-cafe.png",
@@ -188,7 +188,7 @@ const projects = [
     ],
   },
     {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Mapeo Digital de Suelos en Colombia"}),
     slug: "#igac-soils",
     imageUrl: "img/projects/igac-dinosoil.png",
@@ -208,17 +208,17 @@ const projects = [
 
              </a>
                 <Translate>
-            . Cabe indicar este desarrollo fue facilitado gracias a los adelantos previos de varios profesionales de la Subdirección quienes basados en el software R lograron contribuir en proyectos como el Mapa Nacional de Carbono Orgánico, Mapa de Salinidad, Estudio detallado en Sibundoy, entre otros. Basado en estas experiencias, surgio la oportunidad de ofrecer un desarrollo que optimiza las tecnologías de la información para su potencial adopción en los procesos de generación y toma de información en campo sobre suelos de las áreas prioritarias de estas actividades.
+                    . Cabe indicar este desarrollo fue facilitado gracias a los adelantos previos de varios profesionales de la Subdirección quienes basados en el software R lograron contribuir en proyectos como el Mapa Nacional de Carbono Orgánico, Mapa de Salinidad, Estudio detallado en Sibundoy, entre otros. Basado en estas experiencias, surgio la oportunidad de ofrecer un desarrollo que optimiza las tecnologías de la información para su potencial adopción en los procesos de generación y toma de información en campo sobre suelos de las áreas prioritarias de estas actividades.
                 </Translate>
                 </p>
           <p>
             <Translate>
-          Cabe mencionar que el nombre de esta herramienta surge de su implementación inicial en un área prioritaria de Política de Tierras en Cesar/Magdalena. La delimitación de esta área conserva una forma similar a la de un dinosaurio por lo que se decidió personalizar el nombre de la herramienta con el prefijo dino seguido de su principal objetivo como una caja de herramientas de estudios del suelo o en inglés SOIL-toolbox.
+                Cabe mencionar que el nombre de esta herramienta surge de su implementación inicial en un área prioritaria de Política de Tierras en Cesar/Magdalena. La delimitación de esta área conserva una forma similar a la de un dinosaurio por lo que se decidió personalizar el nombre de la herramienta con el prefijo dino seguido de su principal objetivo como una caja de herramientas de estudios del suelo o en inglés SOIL-toolbox.
             </Translate>
           </p>
           <p>
             <Translate>
-          La principal contribución de la herramienta es ofrecer un proceso organizado y sistemático de manejo de datos (entrada y salidas) así como procesamiento eficiente que faciliten aplicar MDS en cualquier área de estudio
+                La principal contribución de la herramienta es ofrecer un proceso organizado y sistemático de manejo de datos (entrada y salidas) así como procesamiento eficiente que faciliten aplicar MDS en cualquier área de estudio
             </Translate>
           </p>
           <p>
@@ -240,7 +240,7 @@ const projects = [
     ],
   },
     {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Detección cambios en construcciones rurales"}),
     slug: "#igac-ruralbuildings",
     imageUrl: "img/projects/igac-construcciones.png",
@@ -279,7 +279,7 @@ const projects = [
     ],
   },
     {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Predicción de la reincidencia en Colombia"}),
     slug: "#ds4a-recidivism",
     imageUrl: "img/projects/ds4a-recidivism.png",
@@ -330,7 +330,7 @@ const projects = [
     ],
   },
       {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Minería de textos para el monitoreo ambiental"}),
     slug: "#turing-NLPconservation",
     imageUrl: "img/projects/turing-dsg.png",
@@ -370,7 +370,7 @@ const projects = [
     ],
   },
     {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Mapeo de asentamientos ilegales"}),
     slug: "#fdl-illegalsettlements",
     imageUrl: "img/projects/fdl-asentamientos.png",
@@ -409,7 +409,7 @@ const projects = [
     ],
   },
   {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Coberturas y uso del suelo post-deforestación"}),
     slug: "#kcl-phd",
     imageUrl: "img/projects/kcl-doctorado.png",
@@ -465,7 +465,7 @@ const projects = [
     ],
   },
   {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Degradación de las pasturas en Colombia"}),
     slug: "#ciat-pastures",
     imageUrl: "img/projects/ciat-pasturas.png",
@@ -508,7 +508,7 @@ const projects = [
     ),
   },
  {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Productos de deforestación en el Amazonas"}),
     slug: "#wwf-deforestation",
     imageUrl: "img/projects/wwf-deforestacion.png",
@@ -541,7 +541,7 @@ const projects = [
     ),
   },
  {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Seguridad hídrica del Amazonas"}),
     slug: "#gcp-water",
     imageUrl: "img/projects/gcp-water.png",
@@ -562,7 +562,7 @@ const projects = [
           </p>
           <p>
             <Translate>
-                El reporte cuenta con un conjunto de métodos y herramientas para la evaluación y gestión de los riesgos relacionados con el agua, basándose en dos documentos orientativos recientes, que han hecho una amplia revisión de este tema pero que difieren en su sector de destino. Por un lado, se resume un extracto de un estudio sobre la seguridad del agua para un sector general. Como resultado, se compararon doce estudios que han proporcionado diferentes indicadores para la evaluación y gestión de la seguridad del agua bajo un enfoque basado en el riesgo. Por otra parte, se examinó un enfoque del riesgo del agua desde el sector industrial, en particular por la industria del petróleo y el gas.  Para este enfoque es importante destacar su estructura de niveles para realizar los análisis de riesgos del agua a múltiples escalas y objetivos (gestión de riesgos del agua a nivel corporativo; evaluación y mapeo global/de cuencas fluviales; y evaluación local). Esta evaluación por niveles muestra la flexibilidad de las herramientas para cubrir más de un nivel. En el Apéndice I se incluye información detallada (fichas técnicas) sobre cada una de las herramientas del agua bajo el prisma de la industria.
+                El reporte cuenta con un conjunto de métodos y herramientas para la evaluación y gestión de los riesgos relacionados con el agua, basándose en dos documentos orientativos recientes, que han hecho una amplia revisión de este tema pero que difieren en su sector de destino. Por un lado, se resume un extracto de un estudio sobre la seguridad del agua para un sector general. Como resultado, se compararon doce estudios que han proporcionado diferentes indicadores para la evaluación y gestión de la seguridad del agua bajo un enfoque basado en el riesgo. Por otra parte, se examinó un enfoque del riesgo del agua desde el sector industrial, en particular por la industria del petróleo y el gas.  Para este enfoque es importante destacar su estructura de niveles para realizar los análisis de riesgos del agua a múltiples escalas y objetivos (gestión de riesgos del agua a nivel corporativo; evaluación y mapeo global/de cuencas fluviales; y evaluación local). Esta evaluación por niveles muestra la flexibilidad de las herramientas para cubrir más de un nivel.
             </Translate>
           </p>
           <p>
@@ -575,7 +575,7 @@ const projects = [
     ),
   },
   {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Patrones espaciales de la deforestación"}),
     slug: "#kcl-master",
     imageUrl: "img/projects/kcl-maestria.png",
@@ -613,11 +613,11 @@ const projects = [
     ],
   },
   {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Terra-i, monitoreo de la deforestación"}),
     slug: "#ciat-terrai",
     imageUrl: "img/projects/ciat-terrai.jpeg",
-    subtitle: translate({message: "Herramienta para el monitoreo del cambio de habitat con enfoque operacional en América Latina y el Caribe."}),
+    subtitle: translate({message: "Herramienta para el monitoreo del cambio de habitat con enfoque operacional en América Latina y el Caribe"}),
     period: translate({message: "Mayo 2011 - Septiembre 2014"}),
     tech: "Python, R, Java",
     description: (
@@ -630,12 +630,12 @@ const projects = [
         <p>
             <li>
                 <Translate>
-                Encargado de la descarga de datos de entrada, procesamiento, postprocesamiento, análisis de datos Terra‐i en América Latina y el Caribe.
+                    Encargado de la descarga de datos de entrada, procesamiento, postprocesamiento, análisis de datos Terra‐i en América Latina y el Caribe.
                 </Translate>
             </li>
             <li>
                 <Translate>
-          Contribuí a la redacción de propuestas y la integración del sistema Terra‐i con la plataforma Global Forest Watch (GFW).
+                    Contribuí a la redacción de propuestas y la integración del sistema Terra‐i con la plataforma Global Forest Watch (GFW).
                 </Translate>
             </li>
             <li>
@@ -671,7 +671,7 @@ Gas Emissions in Latin America and the Caribbean».
     ],
   },
     {
-    category: translate({message: "Project"}),
+    category: translate({message: "Proyecto"}),
     title: translate({message: "Cartografía de especies vegetales aromáticas"}),
     slug: "#unal-aromatic",
     imageUrl: "img/projects/unal-aromatic.png",
