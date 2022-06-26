@@ -11,7 +11,7 @@ const webconfig = {
   title: 'Alejandro Coca-Castro',
   tagline: 'Ciencia Medioambiental Abierta',
   url: 'https://acocac.github.io',
-  baseUrl: '/personal-website/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
