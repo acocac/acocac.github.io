@@ -53,7 +53,7 @@ const webconfig = {
         },
       }),
         {
-            googleAnalytics: {
+            gtag: {
                 trackingID: 'G-WZHWLT7ZBS',
                 anonymizeIP: true,
             },
