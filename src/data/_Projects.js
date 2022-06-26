@@ -50,7 +50,7 @@ const projects = [
             </Translate>{" "}
                 <a href="https://pangeo.io/">
                 Pangeo
-            </a>
+            </a>{" "}
             <Translate>
             , también he desarrollado la comunidad de Ciencias de Datos Ambientales. Para este fin, estoy manteniendo un recurso desarrollado en Jupyter Book en el cual se alojan contenido ejecutable en formato Jupyter notebooks así como registros de reuniones mensuales de la comunidad en los cuales tratamos temas relacionados con las ciencias de datos ambientales.
             </Translate>
@@ -251,22 +251,22 @@ const projects = [
       <>
           <p>
             <Translate>
-          La detección de cambios de áreas construidas basada en datos de teledetección es una  importante herramienta para el ordenamiento y la administración del territorio p.e.: la identificación de construcciones ilegales, la actualización de registros catastrales y la atención de desastres. Bajo el enfoque de comparación post-clasificación, la presente investigación tuvo como objetivo evaluar la funcionalidad de varios algoritmos de clasificación para identificar y capturar las construcciones y su cambio entre dos fechas de análisis usando imágenes de alta resolución (1 m/píxel) en ámbitos rurales y límites del perímetro urbano municipal.
+                La detección de cambios de áreas construidas basada en datos de teledetección es una importante herramienta para el ordenamiento y la administración del territorio p.e.: la identificación de construcciones ilegales, la actualización de registros catastrales y la atención de desastres. Bajo el enfoque de comparación post-clasificación, la presente investigación tuvo como objetivo evaluar la funcionalidad de varios algoritmos de clasificación para identificar y capturar las construcciones y su cambio entre dos fechas de análisis usando imágenes de alta resolución (1 m/píxel) en ámbitos rurales y límites del perímetro urbano municipal.
             </Translate>
           </p>
           <p>
             <Translate>
-          La anterior evaluación fue llevada a cabo a  través  de  una  aplicación  desarrollada  mediante  la  plataforma  Google  Earth  Engine  (GEE),  donde  se  alojaron  y  analizaron diferentes imágenes y datos de entrada sobre dos áreas de estudio en Colombia. En total, ocho algoritmos de clasificación tradicional, tres no supervisados (K-means, X-Means  y  Cascade K-Means)  y  cinco  supervisados  (Random Forest, Support Vector Machine, Naive Bayes, GMO maximum Entropy y Minimum distance) fueron entrenados empleando GEE. Adicionalmente, se entrenó una red neuronal profunda denominada Feature Pyramid Networks (FPN) sobre la cual se aplicó la estrategia de modelos preentrenados, usando pesos del modelo EfficientNetB3. Por cada una de las dos áreas de estudio, tres zonas de evaluación fueron propuestas para cuantificar la funcionalidad de los algoritmos mediante la métrica Intersection over Union (IoU).
+                La anterior evaluación fue llevada a cabo a través de una aplicación desarrollada mediante la plataforma Google Earth Engine (GEE), donde se alojaron y analizaron diferentes imágenes y datos de entrada sobre dos áreas de estudio en Colombia. En total, ocho algoritmos de clasificación tradicional, tres no supervisados (K-means, X-Means y Cascade K-Means) y cinco supervisados (Random Forest, Support Vector Machine, Naive Bayes, GMO maximum Entropy y Minimum distance) fueron entrenados empleando GEE. Adicionalmente, se entrenó una red neuronal profunda denominada Feature Pyramid Networks (FPN) sobre la cual se aplicó la estrategia de modelos preentrenados, usando pesos del modelo EfficientNetB3. Por cada una de las dos áreas de estudio, tres zonas de evaluación fueron propuestas para cuantificar la funcionalidad de los algoritmos mediante la métrica Intersection over Union (IoU).
             </Translate>
           </p>
           <p>
             <Translate>
-            Los resultados indican que los modelos configurados con la red FPN tienen la mejor funcionalidad, seguido de los algoritmos tradicionales supervisados. Las diferencias de la funcionalidad fueron específicas por área de estudio. Para el ámbito rural, la mejor configuración de FPN obtuvo un IoU promedio entre ambas fechas de 0,4, es decir, cuatro veces el mejor modelo supervisado, correspondiente al Support Vector Machine de kernel Lineal con un IoU de 0,1. Respecto al área de límites del perímetro urbano municipal, esta diferencia fue menos marcada, con un IoU promedio de 0,53 en comparación con el 0,38 derivado del mejor modelo de clasificación supervisada, que en este caso fue Random Forest. Los resultados de esta investigación son relevantes para entidades responsables del seguimiento de las dinámicas de las áreas construidasa partir de plataformas de procesamiento en la nube como GEE, estableciendo una línea base para futuros estudios evaluando la funcionalidad de los clasificadores disponibles en otros contextos.
+                Los resultados indican que los modelos configurados con la red FPN tienen la mejor funcionalidad, seguido de los algoritmos tradicionales supervisados. Las diferencias de la funcionalidad fueron específicas por área de estudio. Para el ámbito rural, la mejor configuración de FPN obtuvo un IoU promedio entre ambas fechas de 0,4, es decir, cuatro veces el mejor modelo supervisado, correspondiente al Support Vector Machine de kernel Lineal con un IoU de 0,1. Respecto al área de límites del perímetro urbano municipal, esta diferencia fue menos marcada, con un IoU promedio de 0,53 en comparación con el 0,38 derivado del mejor modelo de clasificación supervisada, que en este caso fue Random Forest. Los resultados de esta investigación son relevantes para entidades responsables del seguimiento de las dinámicas de las áreas construidasa partir de plataformas de procesamiento en la nube como GEE, estableciendo una línea base para futuros estudios evaluando la funcionalidad de los clasificadores disponibles en otros contextos.
             </Translate>
           </p>
           <p>
             <Translate>
-            Mi rol en el proyecto fue ser el líder técnico, supervisando equipos de 6 personas, así como autor principal de la publicación científica.
+                Mi rol en el proyecto fue ser el líder técnico, supervisando equipos de 6 personas, así como autor principal de la publicación científica.
             </Translate>
           </p>
       </>
