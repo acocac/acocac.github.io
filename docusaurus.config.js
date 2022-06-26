@@ -52,6 +52,12 @@ const webconfig = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+        {
+            googleAnalytics: {
+                trackingID: 'G-N2P8DMGYZZ',
+                anonymizeIP: true,
+            },
+        },
     ],
   ],
 
