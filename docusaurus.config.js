@@ -52,12 +52,13 @@ const webconfig = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
-        {
-            gtag: {
-                trackingID: 'G-WZHWLT7ZBS',
-                anonymizeIP: true,
-            },
-        },
+    ],
+     [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-WZHWLT7ZBS',
+        anonymizeIP: true,
+      },
     ],
   ],
 
