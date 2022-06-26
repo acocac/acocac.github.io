@@ -27,11 +27,6 @@ function Home() {
 	});
 	const lines = [
 		translate({
-			id: 'homepage.description.descriptionLine_4',
-			message: '...Conocimiento accesible e inclusivo...',
-			description: 'The fourth line of description',
-		}),
-		translate({
 			id: 'homepage.description.descriptionLine_1',
 			message: 'Geografía, Mapas & Ciencias de Datos',
 			description: 'The first line of description',
