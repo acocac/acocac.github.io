@@ -53,13 +53,6 @@ const webconfig = {
         },
       }),
     ],
-     [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: 'G-WZHWLT7ZBS',
-        anonymizeIP: true,
-      },
-    ],
   ],
 
   i18n: {
@@ -73,6 +66,10 @@ const webconfig = {
   },
 
   themeConfig: {
+      gtag: {
+          trackingID: 'G-WZHWLT7ZBS',
+          anonymizeIP: true,
+      },
    // announcementBar: {
    //    id: "shareme",
    //    content: '⭐️ Si te gusta mi contenido, compártelo en tus redes sociales! ⭐️',
