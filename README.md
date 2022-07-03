@@ -3,8 +3,6 @@
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator, and [ReactJS](https://reactjs.org/).
 
 ## Credits
- existing templates in the showcase of [Docusaurus 2](https://docusaurus.io/). 
+Inspired by existing templates in the showcase section of [Docusaurus 2](https://docusaurus.io/showcase). 
 
-The layout and code of projects, communities and About pages were adapted from https://evantay.com/.
-
-The landing page was adapted from https://tinaeldevresse.eu/. 
+In particular, the website builds upon the layout and code of projects, communities and about pages provided by [Evan Tay](https://evantay.com/). The landing page is adapted from [Tinaël Devresse's personal website](https://tinaeldevresse.eu/). 
