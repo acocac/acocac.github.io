@@ -51,6 +51,10 @@ const webconfig = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-WZHWLT7ZBS',
+          anonymizeIP: true,
+      },
       }),
     ],
   ],
@@ -63,13 +67,10 @@ const webconfig = {
       es: {label: 'Español'},
       pt: {label: 'Português'},
     },
+
   },
 
   themeConfig: {
-      gtag: {
-          trackingID: 'G-WZHWLT7ZBS',
-          anonymizeIP: true,
-      },
    // announcementBar: {
    //    id: "shareme",
    //    content: '⭐️ Si te gusta mi contenido, compártelo en tus redes sociales! ⭐️',
