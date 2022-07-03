@@ -25,7 +25,7 @@ function About() {
               <div className="col col--9">
                 <h2>
                   <Translate>
-                    Hola! &#9961;
+                    Hola! &#128506;
                   </Translate>
                 </h2>
                 <p>
@@ -50,13 +50,13 @@ function About() {
                   <Translate>
                     Cuento con un doctorado en Geografía Física y maestría en Modelamiento, Monitoreo y Manejo Ambiental de
                   </Translate>{" "}
-                  <a href="https://www.kcl.ac.uk/geography/">
+                  <a href="https://www.kcl.ac.uk/geography/" target="_blank" rel="noopener noreferrer">
                     King's College London
                   </a>
                   <Translate>
                     . En colaboración con investigadores de la
                   </Translate>{" "}
-                  <a href="https://alliancebioversityciat.org/">
+                  <a href="https://alliancebioversityciat.org/" target="_blank" rel="noopener noreferrer">
                     <Translate>
                       Alianza Bioversity-CIAT
                     </Translate>
@@ -69,7 +69,7 @@ function About() {
                   <Translate>
                     Estoy afiliado a
                   </Translate>{" "}
-                  <a href="https://www.turing.ac.uk/">
+                  <a href="https://www.turing.ac.uk/" target="_blank" rel="noopener noreferrer">
                     <Translate>
                       The Alan Turing Institute
                     </Translate>
@@ -77,7 +77,7 @@ function About() {
                     <Translate>
                       como investigador Postdoctoral asociado. Gracias al soporte de un equipo diverso de profesionales de mi
                     </Translate>{" "}
-                  <a href="https://www.turing.ac.uk/research/research-projects/environmental-monitoring-blending-satellite-and-surface-data/">
+                  <a href="https://www.turing.ac.uk/research/research-projects/environmental-monitoring-blending-satellite-and-surface-data/" target="_blank" rel="noopener noreferrer">
                     <Translate>
                       proyecto
                     </Translate>
@@ -88,8 +88,9 @@ function About() {
                 </p>
                 <p>
                   <Translate>
-                    Puedes leer mas de mis contribuciones, educación y charlas en mi Curriculum Vitae.
+                    Puedes leer mas de mis contribuciones, educación y charlas en mi
                   </Translate>
+                    {" "}<a href="https://drive.google.com/drive/folders/1PliksdlQhq3cscID0YlJfwVvABiifjFz?usp=sharing" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>.
                 </p>
               </div>
             </div>
