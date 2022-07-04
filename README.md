@@ -5,4 +5,4 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ## Credits
 Inspired by existing templates in the showcase section of [Docusaurus 2](https://docusaurus.io/showcase). 
 
-In particular, the website builds upon the layout and code of projects, communities and about pages provided by [Evan Tay](https://evantay.com/). The landing page is adapted from [Tinaël Devresse's personal website](https://tinaeldevresse.eu/). 
+In particular, the website builds upon the layout and code of projects, communities and about pages prepared by [Evan Tay](https://evantay.com/). The landing page is adapted from [Tinaël Devresse's personal website](https://tinaeldevresse.eu/). 
