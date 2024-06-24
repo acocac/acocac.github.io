@@ -75,7 +75,7 @@ function About() {
                     </Translate>
                     </a>{" "}
                     <Translate>
-                      como investigador Postdoctoral asociado. Gracias al soporte de un equipo diverso de profesionales de mi
+                      como Research Fellow (Abril 2023 - presente). Gracias al soporte de un equipo diverso de profesionales de mi
                     </Translate>{" "}
                   <a href="https://www.turing.ac.uk/research/research-projects/environmental-monitoring-blending-satellite-and-surface-data/" target="_blank" rel="noopener noreferrer">
                     <Translate>
