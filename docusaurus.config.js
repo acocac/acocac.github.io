@@ -13,6 +13,7 @@ const webconfig = {
   url: 'https://acocac.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
+  onBrokenAnchors: "throw",
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: config.GITHUB_USER, // Usually your GitHub org/user name.
