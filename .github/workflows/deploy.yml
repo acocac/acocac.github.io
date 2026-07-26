@@ -40,11 +40,6 @@ jobs:
         run: |
           myst build --html
 
-      - name: Move RSS feeds
-        run: |
-          cp atom.xml _build/html/atom.xml
-          cp rss.xml _build/html/rss.xml
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
