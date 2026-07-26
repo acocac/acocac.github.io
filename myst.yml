@@ -23,7 +23,8 @@ project:
     - src/postlist.mjs
   toc:
     - file: index.md
-    - file: about.md
+    - title: About me
+      file: about.md
     - file: projects.md
     - file: publications.md
     - file: talks.md
@@ -41,7 +42,7 @@ site:
     logo_text: Alejandro Coca-Castro
     hide_toc: false
   nav:
-    - title: About me
+    - title: About
       url: /about
     - title: Projects
       url: /projects
