@@ -1,0 +1,58 @@
+# myst.yml — structured after choldgraf/choldgraf.github.io (mystmd)
+version: 1
+
+project:
+  id: e8d38fca-93f8-4a80-a64e-7a821bcdc307
+  title: Alejandro Coca-Castro
+  description: >-
+    Alejandro's personal site and blog, focused on open science, environmental data science, and geospatial topics.
+  keywords:
+    - open science
+    - environmental data science
+    - geospatial
+  github: https://github.com/acocac/acocac.github.io
+  authors:
+    - id: acocac
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      github: acocac
+      website: https://acocac.github.io
+      affiliations:
+        - The Alan Turing Institute
+  copyright: '2026 Alejandro Coca-Castro'
+  # Custom directives (e.g. {postlist}) — same pattern as chrisholdgraf.com
+  plugins:
+    - src/postlist.mjs
+  toc:
+    - file: index.md
+    - file: projects.md
+    - file: publications.md
+    - file: talks.md
+    - file: communities.md
+    - file: about.md
+    - file: blog.md
+      children:
+        - pattern: blog/**/*.md
+
+site:
+  template: book-theme
+  title: Alejandro Coca-Castro
+  options:
+    analytics_google: G-WZHWLT7ZBS
+    favicon: _static/favicon.png
+    logo_text: Alejandro Coca-Castro
+    hide_toc: false
+  nav:
+    - title: Projects
+      url: /projects
+    - title: Publications
+      url: /publications
+    - title: Talks
+      url: /talks
+    - title: Communities
+      url: /communities
+    - title: Blog
+      url: /blog
+  actions: []
+  domains:
+    - acocac.github.io
