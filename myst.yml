@@ -23,11 +23,11 @@ project:
     - src/postlist.mjs
   toc:
     - file: index.md
+    - file: about.md
     - file: projects.md
     - file: publications.md
     - file: talks.md
     - file: communities.md
-    - file: about.md
     - file: blog.md
       children:
         - pattern: blog/**/*.md
@@ -41,6 +41,8 @@ site:
     logo_text: Alejandro Coca-Castro
     hide_toc: false
   nav:
+    - title: About me
+      url: /about
     - title: Projects
       url: /projects
     - title: Publications
