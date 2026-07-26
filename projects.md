@@ -33,7 +33,7 @@ GIANT, a £20m UK-led scientific initiative focused on understanding how melting
 :align: center
 :width: 75%
 ```
-FastNet is an data-driven medium range numerical weather prediction model developed jointly by the UK Met Office and the Alan Turing Institute.
+FastNet is a data-driven medium-range numerical weather prediction model developed jointly by the UK Met Office and the Alan Turing Institute.
 
 *Contributed to the development and maintenance of MLOps workflows (data preparation, training, validation, logging) for delivering the FastNet v1.1 model, which is publicly shared in [Hugging Face](https://huggingface.co/MetOffice/FastNet-global).*
 :::
@@ -172,7 +172,7 @@ in rural settings.
 ```
 Digital soil-mapping methodologies with data science.
 
-*Technical lead on [dinoSOIL, a framework in R for digital soil mapping using machine learning and geostatistics.*
+*Technical lead on dinoSOIL, a framework in R for digital soil mapping using machine learning and geostatistics.*
 :::
 
 ### Ministry of Information and Communication Technologies (MinTIC)
@@ -247,8 +247,7 @@ fractal analysis, drawing on open data from Terra-i and Global Forest Change.
 :align: center
 :width: 75%
 ```
-Analysis of water security in the Amazon for Global Canopy during a placement in my MSc at King's College London.
-(Oxford, United Kingdom).
+Analysis of water security in the Amazon for Global Canopy (Oxford, UK) during a placement in my MSc at King's College London.
 :::
 
 ### Universidad Nacional de Colombia
