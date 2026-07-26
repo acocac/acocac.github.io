@@ -1,4 +1,3 @@
-# myst.yml — structured after choldgraf/choldgraf.github.io (mystmd)
 version: 1
 
 project:
@@ -20,7 +19,6 @@ project:
       affiliations:
         - The Alan Turing Institute
   copyright: '2026 Alejandro Coca-Castro'
-  # Custom directives (e.g. {postlist}) — same pattern as chrisholdgraf.com
   plugins:
     - src/postlist.mjs
   toc:
